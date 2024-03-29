@@ -1,0 +1,498 @@
+.section {
+  background-color: white;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.world-map {
+  width: 250px; /* Adjust size as needed */
+  height: 230px;
+  align-items: center;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #78a083;
+}
+
+.border {
+  height: min-content;
+  width: min-content;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.border {
+  background-color: #cfd8d2;
+}
+
+.border:first-child {
+  width: 500px;
+}
+.border:nth-child(2) {
+  border-width: 4px;
+  width: 200px;
+}
+.border:nth-child(3) {
+  border-width: 4px;
+  width: 210px;
+}
+
+.border:nth-child(4) {
+  width: 500px;
+}
+
+.border:nth-child(5) {
+  border-width: 4px;
+  width: 200px;
+}
+
+.border:nth-child(6) {
+  border-width: 4px;
+  width: 200px;
+  padding-left: 70px;
+  align-content: center;
+  color: white;
+  background-color: goldenrod;
+}
+
+.first-section {
+  /* Your existing styles for .first-section */
+  border: 2px solid rgb(175, 168, 168);
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.border p {
+  display: inline;
+}
+
+table {
+  width: 700px;
+}
+
+.tablee {
+  width: 350px;
+  margin-left: 20px;
+  padding: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  background-color: #344955;
+}
+
+.left-content {
+  padding-left: 20px;
+}
+
+.right-content {
+  padding-left: 30px;
+}
+
+p5 {
+  font-size: 20px;
+}
+
+.image {
+  height: 70px;
+  margin-left: 30px;
+}
+
+.right-content p2 {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: goldenrod;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.flexx {
+  display: flex;
+}
+
+.range-slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.from-title {
+  margin-left: 40px;
+}
+
+.second-section {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+
+.flex p {
+  width: 100px;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 50px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+.flexxx {
+  padding-right: 50%;
+}
+
+.flexx p:nth-child(2),
+.flexx p:nth-child(3) {
+  padding-bottom: 1px;
+  margin-left: 125px;
+  color: white;
+  margin-bottom: 1px;
+}
+
+.flex p:nth-child(1),
+.flex p:nth-child(3) {
+  margin-bottom: 1px;
+  font-size: large;
+  padding-top: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+.flex p:nth-child(2) {
+  margin-bottom: 1px;
+
+  font-size: small;
+}
+
+.flexx p {
+  width: 100px;
+  align-items: center;
+  margin-left: 8px;
+  color: white;
+  margin-right: 8px;
+
+  padding: 10px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.fro {
+  font-size: 20px;
+}
+.froo {
+  font-size: 15px;
+}
+
+.section-head {
+  display: flex;
+}
+
+.section-head h1:nth-child(1) {
+  display: flex;
+
+  font-size: 25px;
+
+  margin-left: 20px;
+}
+
+.section-head h5:nth-child(2) {
+  display: flex;
+  width: 100px;
+  background-color: whitesmoke;
+  border: 1px;
+  height: 50px;
+  margin-left: 500px;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+
+.section-head h5:nth-child(3) {
+  background-color: whitesmoke;
+  padding-top: 10px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px;
+  margin-left: 20px;
+
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.section-head h5 svg {
+  font-size: 20px;
+
+  margin-left: 10px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color:   rgb(197, 206, 189);
+  border: 1px solid #ccc;
+  border-radius: 50px;
+
+  display: inline;
+  padding: 10px;
+}
+
+.link.active {
+  background-color:  #344955 ;
+  color: #fff;
+}
+
+
+
+.border {
+  list-style-type: none;
+}
+
+.border p:nth-child(1) .link {
+  /* Styles for the first child link */
+
+  justify-content: center;
+
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: center;
+}
+
+.border p:nth-child(2) .link {
+  /* Styles for the second child link */
+  margin-left: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: center;
+}
+
+.border p:nth-child(3) .link {
+  margin-left: 1px;
+  padding-left: 36px;
+  padding-right: 36px;
+  justify-content: center;
+
+  /* Styles for the third child link */
+}
+
+.link span {
+  display: inline-block;
+  justify-content: center;
+}
+
+.thead {
+  padding: 600px;
+  margin-top: 1000px;
+}
+
+.sva {
+  margin-right: 20px;
+  font-size: larger;
+}
+
+.svggg p:nth-child(2) {
+  color: white;
+  border-radius: 50px;
+  padding-left: 15px;
+
+  margin-right: 50px;
+  padding-right: 15px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+  background-color: #35374b;
+  margin-left: 60px;
+}
+
+.flexs {
+  margin-top: 50px;
+}
+.flexs button {
+  font-size: small;
+  padding: 5px;
+
+  margin: 15px;
+}
+
+p6 {
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+p5 {
+  font-size: 30px;
+}
+
+.links p {
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.flexsss {
+  margin-top: -20px;
+  display: flex;
+}
+.flexsss1 {
+  margin-left: 20px;
+  padding-right: 50px;
+  font-size: 15px;
+  color: white;
+
+  /* Styles for the first <p> tag */
+}
+
+.flexsss2 {
+  padding-left: 140px;
+  font-size: 18px;
+  color: white;
+  /* Styles for the second <p> tag */
+}
+
+.flexss {
+  margin-top: -50px;
+  display: flex;
+  color: white;
+}
+.flexss1 {
+  margin-left: 20px;
+  padding-right: 50px;
+  font-size: 30px;
+  /* Styles for the first <p> tag */
+}
+
+.flexss2 {
+  padding-right: 30px;
+  /* Styles for the second <p> tag */
+}
+
+.flexss3 {
+  font-size: 30px;
+  /* Styles for the third <p> tag */
+}
+
+.range-slider {
+  position: relative;
+  width: 200px;
+  height: 2px;
+
+  background: grey;
+  margin-left: 20px;
+}
+
+input[type="range"] {
+  position: absolute;
+  width: 20px;
+  padding-bottom: 100px;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: goldenrod;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#toggle1 {
+  left: 0;
+}
+
+#toggle2 {
+  right: 0;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.airport-label {
+  position: absolute;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+}
+
+.bom {
+  top: 30%;
+  left: 20%;
+}
+
+.jfk {
+  top: 50%;
+  left: 70%;
+}
+
+.world-map {
+  display: block;
+  max-width: 100%;
+  height: 170px;
+}
+
+.plane {
+  top: 5%;
+  left: 55%;
+  position: absolute;
+  font-size: 20px;
+
+  font-weight: normal;
+  color: goldenrod;
+}
